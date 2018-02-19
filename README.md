@@ -1,6 +1,6 @@
 # Syneek
 
-Syneek es un proyecto diseñado dentro de una Hackaton de Laboratoria en el cual trabajamos un app movil y web de busqueda de peliculas. Utilizamos todo lo aprendido en cuanto a JavaScript Y UX Design del Common Core
+Syneek es un proyecto diseñado en grupo dentro de una Hackaton de Laboratoria en el cual trabajamos un app movil y web de busqueda de peliculas. Utilizamos todo lo aprendido en cuanto a JavaScript Y UX Design del Common Core
 
 ![syneek2](https://user-images.githubusercontent.com/32309909/36395013-e66b6c04-1584-11e8-8a6d-001e153faf4c.jpg)
 
