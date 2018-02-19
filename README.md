@@ -1,3 +1,17 @@
+# Syneek
+
+Syneek es un proyecto diseñado dentro de una Hackaton de Laboratoria en el cual trabajamos un app movil y web de busqueda de peliculas. Utilizamos todo lo aprendido en cuanto a JavaScript Y UX Design del Common Core
+
+![syneek2](https://user-images.githubusercontent.com/32309909/36395013-e66b6c04-1584-11e8-8a6d-001e153faf4c.jpg)
+
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+
+
+
+
 # PROYECTO: Syneek
 
 Syneek es una aplicación web responsive design la cual está desarrollada pensando en aquellas personas que gustan de las sagas cinematográficas. Por lo tanto, es una propuesta la cual facilita la búsqueda de estas. Esta aplicación te permitirá conocer los estrenos, organizar tus películas en colecciones y recomendarte las mejores películas de acuerdo a tus preferencias brindadas en tu perfil.
