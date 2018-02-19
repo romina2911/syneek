@@ -9,10 +9,7 @@ Syneek es un proyecto diseñado en grupo dentro de una Hackaton de Laboratoria e
 [Laboratoria](http://laboratoria.la)
 
 
-
-
-
-# PROYECTO: Syneek
+## Detalles
 
 Syneek es una aplicación web responsive design la cual está desarrollada pensando en aquellas personas que gustan de las sagas cinematográficas. Por lo tanto, es una propuesta la cual facilita la búsqueda de estas. Esta aplicación te permitirá conocer los estrenos, organizar tus películas en colecciones y recomendarte las mejores películas de acuerdo a tus preferencias brindadas en tu perfil.
 
