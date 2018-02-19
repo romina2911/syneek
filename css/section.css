@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Barra de navegación */
+/*
+header: #9F0017, #9c1309
+body: #3a3939, #08080A
+texto: #EDEECD
+botón: #f7b617
+*/
+.nav-dark{
+    background: linear-gradient(#9F0017,#9c1309);
+    color: #EDEECD !important;
+}
+.form-nav{
+    margin-top: 6em !important;
+}
+body{
+    background: radial-gradient(#3a3939,#08080A);
+    height: 100%;
+}
+.logo-text{
+    font-family: 'Righteous', cursive;
+}
+.titles{
+    font-family: 'PT Sans', sans-serif;
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+.white{
+    color: #EDEECD !important;
+}
+.icon-user{
+    right: 2%;
+    font-size: 1.5em;
+}
+.m-l{
+    margin-left: 3vh !important;
+}
+/* carousel */
+#carousel-sagas, #carousel-sagas2 {
+    width: 100% !important;
+    height: 30vh !important;
+}
+.m-b{
+    margin-bottom: 7vh !important;
+}
+.img-saga{
+    width: 100% !important;
+    height: 30vh !important;
+}
+/* img carrusel */
+.img-autoplay, img{
+    margin-right: 3vh;
+    width: 15vh;
+    height: 20vh;
+    display: inline-block;
+    display: flex;
+    flex-flow: row;
+}
+img{
+    float: left;
+}
+div.modal-content{
+    height: 30vh;
+    width: auto;
+}
+.modal-in{
+    height: 30vh;
+}
+div.outline{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    width: 55vh !important;
+}
+p.titles{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    width: 30vh !important;
+}
+.column{
+    flex-flow: column;
+}
+.imagenes-movies{
+    position: absolute;
+    width: 40vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5%;
+}
+.modal-content{
+    box-shadow: 0px 0px;
+}
+img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+/* */
+.slider-nav img {
+    max-width: 100%;
+  }
+  .slider-for img {
+    width: 100%;
+  }
+  
+  .slider-nav slick-slide:hover {
+    cursor: pointer;
+  }
+  
+  
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 0;
+    &:before {
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      content: "";
+      display: block;
+      height: 60px;
+      opacity: 1;
+      width: 30px;
+    }
+    &:hover:before {
+      opacity: .8;
+    }
+  }
+  
+  .slick-prev {
+    left: 0;
+    &:before {
+      background-image: url("http://www.flagshipsd.com/sites/default/files/userfiles/images/slick-prev.png");
+    }
+  }
+  
+  .slick-next {
+    right: 0;
+    &:before {
+      background-image: url("http://www.flagshipsd.com/sites/default/files/userfiles/images/slick-next.png");
+    }
+  }
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0 none;
+    border-radius: 0;
+    margin-left: 1px;
+    .modal-body {
+      padding: 0;
+      iframe {
+        margin-bottom: -5px;
+      }
+    }
+    .modal-header {
+      border: 0 none;
+      height: 0;
+      min-height: 0;
+      padding: 0;
+      .close {
+        background-color: #000000 !important;
+        border: 2px solid #ffffff !important;
+        border-radius: 13px;
+        color: #ffffff;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        height: 26px;
+        opacity: 1;
+        padding-bottom: 0;
+        position: absolute;
+        right: -13px;
+        text-shadow: none;
+        top: -13px;
+        width: 26px;
+        z-index: 1;
+      }
+    }
+  }
+  @media (min-width: 500px) {
+    .img-autoplay{
+        width: 40vh;
+        height: 50vh;
+        display: flex;
+        flex-flow: row !important;
+        margin-right: 2rem !important; 
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        float: left;
+    }
+    div.outline{
+        width: 65% !important;
+    }
+    .imagenes-movies{
+        position: absolute;
+        width: 50vh;
+        height: 63vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: 5%;
+    }
+  }

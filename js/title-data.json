@@ -1,0 +1,44 @@
+{
+  "Title": "Ada",
+  "Year": "1961",
+  "Rated": "NOT RATED",
+  "Released": "25 Aug 1961",
+  "Runtime": "109 min",
+  "Genre": "Drama, Romance",
+  "Director": "Daniel Mann",
+  "Writer": "Arthur Sheekman, William Driskill, Wirt Williams (novel)",
+  "Actors": "Susan Hayward, Dean Martin, Wilfrid Hyde-White, Ralph Meeker",
+  "Plot": "Bo Gillis is running for Governor. Steve writes the speeches, Sylvester runs the campaign and Bo plays the guitar. Everything is going according to the plan until a hooker named Ada is ...",
+  "Language": "English",
+  "Country": "USA",
+  "Awards": "N/A",
+  "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWUzNmVjMzUtYTlkYy00ZDA4LThiM2YtZWJmODJmMDg4NmZhXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "6.7/10"
+    }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.7",
+  "imdbVotes": "695",
+  "imdbID": "tt0054601",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True"
+}
+
+
+
+
+
+{
+  "Poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+  "Title" : "Star Wars: Episode IV - A New Hope",
+  "Type" : "movie",
+  "Year" : "1977",
+  "imdbID" : "tt0076759"
+}

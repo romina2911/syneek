@@ -1,0 +1,23 @@
+{
+  "Accion" : [ {
+    "Poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2MzU2NDQwOF5BMl5BanBnXkFtZTgwMTc3MjM2MTI@._V1_SX300.jpg",
+    "Title" : "Mary Poppins Returns",
+    "Type" : "movie",
+    "Year" : "2018",
+    "imdbID" : "tt5028340"
+  }, {
+    "Poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxOTQ1MzI0Nl5BMl5BanBnXkFtZTgwMzgwMzIxNDM@._V1_SX300.jpg",
+    "Title" : "Fifty Shades Freed",
+    "Type" : "movie",
+    "Year" : "2018",
+    "imdbID" : "tt4477536"
+  }, {
+    "Poster" : "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyNzk3MDc2NF5BMl5BanBnXkFtZTgwMDk3OTM1NDM@._V1_SX300.jpg",
+    "Title" : "Maze Runner: The Death Cure",
+    "Type" : "movie",
+    "Year" : "2018",
+    "imdbID" : "tt4500922"}
+  ]
+  
+}
+

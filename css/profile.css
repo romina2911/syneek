@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Barra de navegación */
+/*
+header: #9F0017, #9c1309
+body: #3a3939, #08080A
+texto: #EDEECD
+botón: #f7b617
+*/
+.nav-dark{
+    background: linear-gradient(#9F0017,#9c1309);
+    color: #EDEECD !important;
+}
+.form-nav{
+    margin-top: 6em;
+}
+body{
+    background: radial-gradient(#3a3939,#08080A);
+    height: 100%;
+}
+.logo-text{
+    font-family: 'Righteous', cursive;
+}
+.titles{
+    font-family: 'PT Sans', sans-serif;
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+.white{
+    color: #EDEECD !important ;
+}
+.fa{
+    font-size: 1.5em;
+}
+/* user */
+.photo-user{
+    font-size: 3em;
+}
+.icon-user{
+    right: 2%;
+}
+
+.m-b{
+    margin-bottom: 1vh ;
+}
+.user-presentation{
+    display: flex ;
+    flex-flow: column ;
+    margin: auto ;
+    width: 50%;
+    text-align: center ;
+}
+.form-h, .form-h2 {
+    width: 45% ;
+    display: inline-block;
+}
+.form{
+    display: flex ;
+    flex-flow: row ;
+    margin: auto ;
+    justify-content: center ;
+}
+.input-others{
+    width: 10vh;
+}
+.btn-save{
+    width: 25vh;
+    background-color: goldenrod ; 
+    border-radius: 5%;
+    display: flex ;
+    flex-flow: row ;
+    margin: auto ;
+    justify-content: center ;
+    padding: 1vh;
+    border: none ;
+    margin-top: 4vh ;
+}
+
+.navbar-toggle{
+    color:  #EDEECD ;
+}
+.txt{
+    color:black;
+}
+

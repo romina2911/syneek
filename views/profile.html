@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Syneek</title>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway|Righteous" rel="stylesheet">
+  <!-- css Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Icono  -->
+  <link rel="shortcut icon" href="../assets/icons/film.jpg" type="image/x-icon">
+  <!-- css de la vista profile-->
+  <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body class="white">
+  <!-- Barra de navegación -->
+  <div class="container-fluid ">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-collapse nav-dark" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo-text color-text-body white" href="home.html">Syneek</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="profile.html">Mi Perfil</a></li>
+            <li class="dropdown white">
+              <a href="section.html" class="dropdown-toggle white" data-toggle="dropdown">Recomendaciones</a>
+            
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="white">Cerrar Sesión</a></li>
+              <ul class="dropdown-menu">
+                <li><a href="#">Terror</a></li>
+                <li><a href="#">Comedia</a></li>
+                <li><a href="#">Romance</a></li>
+                <li class="divider"></li>
+              <ul class="dropdown-menu">
+                <li><a href="#">Terror</a></li>
+                <li><a href="#">Comedia</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Erótico</a></li>
+                <li><a href="#">Animación</a></li>
+                <li class="divider"></li> 
+                <li><a href="#">Añade categoria</a></li>                        
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+</div>
+  <!-- Input de búsqueda de películas de saga -->
+  <div class="container form-nav ">
+    <div class="  input-group mb-3">
+        <a href="home.html"><button  class="btn-save">Busca tu saga</button></a>
+    </div>
+  </div>
+  <hr>
+  <!-- sección del perfil -->
+  
+  <div class="container">
+    <div class=" user-presentation">
+        <h4 class="text-center">Mi Perfil</h4>
+        <img src="" alt="foto de usuario" class="center-block img-responsive" id="img-user">
+      
+      
+      </div>
+  </div>
+  <div class="container">
+    <div class="text-center ">
+      <p class="text-center">Nombre de usuario: <span></span></p><input type="text" name="" id="txt-edit-name" class="rounded txt text-center" readonly>
+    </div>
+    <div class="text-center ">
+        <p class="text-center">Géneros favoritos: <span></span></p>
+        <ul id="generos">
+          
+        </ul>
+      </div>
+   
+
+
+    <div id="form" class="form">
+    <form  id="form-h" class="form-h">
+      <div class="form-check col-xs-offset-4 ">
+        <input type="checkbox" class="form-check-input" id="chk-terror" value="Terror">
+        <label class="form-check-label" for="exampleCheck1">Terror</label>
+      </div>
+      <div class="form-check col-xs-offset-4 ">
+        <input type="checkbox" class="form-check-input" id="chk-ficcion" value="Ficcion">
+        <label class="form-check-label" for="exampleCheck1">Ficción</label>
+      </div>
+      <div class="form-check col-xs-offset-4">
+        <input type="checkbox" class="form-check-input" id="chk-romance" value="Romance">
+        <label class="form-check-label" for="exampleCheck1">Romance</label>
+      </div>
+      <div class="form-check col-xs-offset-4">
+        <input type="checkbox" class="form-check-input" id="chk-comedia" value="Comedia">
+        <label class="form-check-label" for="exampleCheck1">Comedia</label>
+      </div>
+      <div class="form-check col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-musicales" value="Musicales">
+          <label class="form-check-label" for="exampleCheck1">Musicales</label>
+        </div>
+        <div class="form-check col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-aventura" value="Aventura">
+          <label class="form-check-label" for="exampleCheck1">Aventura</label>
+        </div>
+    </form >
+    <form id="form-h2" class="form-h2 ">
+        <div class="form-check  col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-suspenso" value="Suspenso">
+          <label class="form-check-label" for="exampleCheck1">Suspenso</label>
+        </div>
+        <div class="form-check col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-drama" value="Drama">
+          <label class="form-check-label" for="exampleCheck1">Drama</label>
+        </div>
+        <div class="form-check col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-accion" value="Accion">
+          <label class="form-check-label" for="exampleCheck1">Acción</label>
+        </div>
+        <div class="form-check col-xs-offset-4">
+          <input type="checkbox" class="form-check-input" id="chk-fantasia" value="Fantasia">
+          <label class="form-check-label" for="exampleCheck1">Fantasía</label>
+        </div>
+        <div class="form-check col-xs-offset-4">
+            <input type="checkbox" class="form-check-input" id="chk-erotica" value="Erotica">
+            <label class="form-check-label" for="exampleCheck1">Erótica</label>
+          </div>
+          <div class="form-check col-xs-offset-4">
+            <input type="checkbox" class="form-check-input" id="chk-animacion" value="Animacion">
+            <label class="form-check-label" for="exampleCheck1">Animación</label>
+          </div>
+          
+      </form>
+  </div>
+</div>
+</div>
+  <div class="container">
+    <button id="btn-save" type="button" class="btn-save">Guardar cambios</button>
+  </div>
+
+
+  <!-- Js de firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script type="text/javascript" src="../js/connect.js"></script>
+<!-- Js de Jquery-->
+<script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+<!-- Js de bootstrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Js para la página-->
+<script type="text/javascript" src="../js/profile.js"></script>
+</body>
+</html>

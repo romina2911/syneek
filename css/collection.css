@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Barra de navegación */
+/*
+header: #9F0017, #9c1309
+body: #3a3939, #08080A
+texto: #EDEECD
+botón: #f7b617
+*/
+.nav-dark{
+    background: linear-gradient(#9F0017,#9c1309);
+    color: #EDEECD !important;
+}
+.form-nav{
+    margin-top: 6em;
+}
+body{
+    background: radial-gradient(#3a3939,#08080A);
+    height: 100%;
+}
+.logo-text{
+    font-family: 'Righteous', cursive;
+}
+.titles{
+    font-family: 'PT Sans', sans-serif;
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+.white{
+    color: #EDEECD !important;
+}
+.icon-user{
+    right: 2%;
+}
+@media (min-width:600px){
+    #icon-bars{
+        display: none;
+    }
+    #logo{
+        margin-left: 2vh;
+    }
+}
+
+.btn-save{
+    width: 25vh;
+    background-color: goldenrod ; 
+    border-radius: 5%;
+    display: flex ;
+    flex-flow: row ;
+    margin: auto ;
+    justify-content: center ;
+    padding: 1vh;
+    border: none ;
+    margin-top: 4vh ;
+}

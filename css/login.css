@@ -1,0 +1,79 @@
+/*Resetendo el layout */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  color: #ffffff;
+}
+
+
+/* LOGIN */
+
+.min100vh {
+  min-height: 100vh;
+}
+
+.gray-grad {
+  background: linear-gradient(to bottom, #000000, #272727);
+}
+
+.login-content {
+  min-height: 70vh;
+}
+
+.img-1 {
+  min-height: 100vh;
+  background-image: url('../assets/images/splash/slider-s1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-2 {
+  min-height: 100vh;
+  background-image: url('../assets/images/splash/slider-s2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  min-height: 100vh;
+  background-image: url('../assets/images/splash/slider-s3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.max400 {
+  max-width: 400px;
+}
+
+.rounded-corners {
+  border-radius: 2rem;
+}
+
+.btn {
+  transition: .2s;
+  border: none;
+}
+
+.btn-yellow {
+  background-color: #f7b617;
+  color: #fff;
+}
+
+.link-yellow {
+  color: #f7b617;
+}
+
+.link-yellow:hover {
+  color: rgb(138, 136, 143);
+}
+
+@media (min-width: 992px) {}
